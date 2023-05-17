@@ -12,7 +12,7 @@ const SearchBox = ({ onSearchChange, placeholder, className }: SearchBoxProps) =
     className={`search-box ${className}`}
     type="search"
     placeholder={placeholder}
-    onChange={(e) => onSearchChange}
+    onChange={onSearchChange}
   />
 );
 
